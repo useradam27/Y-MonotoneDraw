@@ -1,3 +1,7 @@
+//Stack class
+//
+//Creates stack to use for algorithm
+
 
 public class Stack
 {

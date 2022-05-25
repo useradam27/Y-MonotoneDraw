@@ -1,4 +1,5 @@
-
+//Main file
+//Code by Adam Gerena (main logic and implementation) and Sebastion Hernandez (presentation and animation)
 
 ArrayList<Vertex> vertices = new ArrayList<Vertex>();
 Vertex origin;
@@ -465,7 +466,6 @@ public void triangulate(ArrayList<Vertex> v)
   
   for (int i = 2; i < v.size() - 1; i++)
   {
-    //if(
     println("mainloop");
     if (v.get(i).chain != myStack.top().chain)
     {

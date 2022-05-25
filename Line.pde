@@ -1,3 +1,8 @@
+//Line class
+//
+//Creates line object that allows for keeping track of points and checking for intersections
+
+
 public class Line
 {
   private Vertex start;
@@ -73,7 +78,7 @@ public class Line
     return start + ":" + end;
   }
   
-  
+  //Checks if two lines are intersecting
   public Vertex intersect(Line l2)
     {
     //caclulate a through e for formula
